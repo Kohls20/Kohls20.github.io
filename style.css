@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? família=Barlow:wght@600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/luzes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    font-family: Barlow, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.info{
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.perfil{
+    width: 400px;
+}
+
+.perfil h1{
+    font-family: Barlow, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11em;
+}
+
+IMG.img_perfil{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info .perfil{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    width: 420px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 40px 50px;
+    align-items: center;
+}
+
+.info .perfil::before{
+    content: '';
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 20px 0 0 20px;
+}
+
+.info .perfil::after{
+    content: '';
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-left: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0;
+}
+
+.subtitle{
+    font-family: Barlow, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.caixa{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    padding: 1rem !important;
+    margin-bottom: 3rem !important;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+    border-radius: 0.50rem !important;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
